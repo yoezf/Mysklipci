@@ -1,0 +1,12 @@
+/* Styling tambahan di luar Tailwind (opsional) */
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+/* Biar konten tidak ketutup bottom nav di mobile */
+@media (max-width: 767px) {
+    main {
+        padding-bottom: 4rem;
+    }
+}
